@@ -203,4 +203,123 @@ body {
 
 /* Website promotion on the Internet */
 
+.website_promotion {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.website_title h3{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 110%;
+    color: #000000;
+}
+
+.website_main_content {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.website_leftBlock, .website_rightBlock {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #671FEC;
+    border-radius: 70px;
+    margin: 24px;
+}
+
+.website_leftBlock_heading, .website_rightBlock_heading {
+    background-color: #671FEC;
+    border: 2px solid #671FEC;
+    border-radius: 70px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 32px 32px 49px 32px!important;
+    margin: 0;
+}
+
+.website_leftBlock_heading_width, .website_rightBlock_heading_width {
+    width: 60%;
+}
+
+.website_leftBlock_heading h4, .website_rightBlock_heading h4 {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 110%;
+    color: #FFFFFF;
+}
+
+.website_leftBlock_heading p, .website_rightBlock_heading p {
+    font-family: 'Hauora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 110%;
+    color: #FFFFFF;
+}
+
+.website_leftBlock_content, .website_rightBlock_content {
+    padding: 0 32px 70px 32px;
+    padding-top: 0;
+}
+
+.website_leftBlock_content_heading_plus, .website_leftBlock_content_heading_minuse, .website_rightBlock_content_heading_plus, .website_rightBlock_content_heading_minuse {
+    display: inline-block;
+    text-align: center;
+}
+
+.website_leftBlock_content_heading_plus h4, .website_leftBlock_content_heading_minuse h4, .website_rightBlock_content_heading_plus h4, .website_rightBlock_content_heading_minuse h4 {
+    border: 2px solid #671FEC;
+    border-radius: 70px;
+    font-family: 'Hauora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 110%;
+    color: #671FEC;
+    padding: 5px 15px;
+}
+
+.website_leftBlock_content_main_plus, .website_leftBlock_content_main_minuse, .website_rightBlock_content_main_plus, .website_rightBlock_content_main_minuse {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:flex-start;
+    width: 70%;
+    margin-bottom: 32px;
+}
+
+.website_leftBlock_content_main_plus:nth-last-child(3n), .website_rightBlock_content_main_plus:nth-last-child(3n) {
+    margin-bottom: 0;
+}
+
+.website_leftBlock_content_main_plus >div, .website_rightBlock_content_main_plus >div, .website_leftBlock_content_main_minuse >div, .website_rightBlock_content_main_minuse >div {
+    margin-left: 10px;
+}
+
+.website_leftBlock_content_main_plus h4, .website_leftBlock_content_main_minuse h4, .website_rightBlock_content_main_plus h4, .website_rightBlock_content_main_minuse h4 {
+    font-family: 'Hauora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 110%;
+    color: #000000;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.website_leftBlock_content_main_plus span, .website_leftBlock_content_main_minuse span, .website_rightBlock_content_main_plus span, .website_rightBlock_content_main_minuse span {
+    font-family: 'Hauora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 110%;
+    color: #4D4D4D;
+}
