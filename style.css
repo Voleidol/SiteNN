@@ -226,6 +226,7 @@ body {
 }
 
 .website_leftBlock, .website_rightBlock {
+    width: 50%;
     display: flex;
     flex-direction: column;
     border: 2px solid #671FEC;
@@ -236,7 +237,7 @@ body {
 .website_leftBlock_heading, .website_rightBlock_heading {
     background-color: #671FEC;
     border: 2px solid #671FEC;
-    border-radius: 70px;
+    border-radius: 65px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     padding: 32px 32px 49px 32px!important;
@@ -244,7 +245,8 @@ body {
 }
 
 .website_leftBlock_heading_width, .website_rightBlock_heading_width {
-    width: 60%;
+    width: 100%;
+    height: 10.313rem;
 }
 
 .website_leftBlock_heading h4, .website_rightBlock_heading h4 {
@@ -254,6 +256,7 @@ body {
     font-size: 20px;
     line-height: 110%;
     color: #FFFFFF;
+    margin-bottom: 0;
 }
 
 .website_leftBlock_heading p, .website_rightBlock_heading p {
@@ -292,7 +295,7 @@ body {
     flex-direction: row;
     justify-content: flex-start;
     align-items:flex-start;
-    width: 70%;
+    width: 26.063rem;
     margin-bottom: 32px;
 }
 
@@ -322,4 +325,28 @@ body {
     font-size: 16px;
     line-height: 110%;
     color: #4D4D4D;
+}
+
+.website_footer p{
+    font-family: 'Hauora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 110%;
+    color: #671FEC;
+}
+
+
+/* Corporate identity development */
+
+
+.style_development {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.style_development_up {
+    display: flex;
+    flex-direction: row;
 }
