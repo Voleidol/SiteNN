@@ -341,12 +341,471 @@ body {
 
 
 .style_development {
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.style_development_heading {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.style_development_heading h1 {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 110%;
+    color: #1E1E1E;
+}
+
+.style_development_heading h3 {
+    font-family: 'Hauora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 110%;
+    color: #671FEC;
+}
+
+.style_development_heading h4 {
+    font-family: 'Hauora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 110%;
+    color: #000000;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+.style_development_up, .style_development_down{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.down_arrow {
+    margin-top: -10rem;
+}
+
+.style_delevopment_up_text, .style_delevopment_down_text{
+    width: 70%;
+    display: flex;
+}
+
+.style_delevopment_up_text_number h1, .style_delevopment_down_text_number h1{
+    font-family: 'Stem';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 250px;
+    line-height: 62%;
+    text-align: right;
+    letter-spacing: -0.005em;
+    color: #671FEC;
+    align-self: flex-start;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.style_delevopment_up_text_main_header h4, .style_delevopment_down_text_main_header h4 {
+    font-family: 'Hauora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 110%;
+    color: #000000;
+}
+
+.style_delevopment_up_text_main_description, .style_delevopment_down_text_main_description{
+    display: flex;
+    align-items: center;
+}
+
+.style_delevopment_up_text_main_description div {
+    height: auto;
+}
+
+.style_delevopment_up_text_main_description h4, .style_delevopment_down_text_main_description h4{
+    font-family: 'Hauora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 110%;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+}
+
+.style_delevopment_up_text_main_description_text_padding, .style_delevopment_down_text_main_description_text_padding h4 {
+    padding-left: 0.5rem;
+}
+
+.style_delevopment_up_text_main_description span {
+    font-family: 'Hauora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 110%;
+    color: #4D4D4D;
+}
+
+/* redesign, regeneration style */
+
+.regeneration_style_section {
     display: flex;
     flex-direction: column;
 }
 
-.style_development_up {
+.regeneration_style_section_header {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.regeneration_style_section_header_backroundColor {
+    position: relative;
+    align-self: flex-start;
+    width: 65.375rem;
+    background-color:#671FEC;
+    padding: 3rem;
+    padding-right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white; 
+}
+
+.regeneration_style_section_header_text {
+    z-index: 999;
+    width: 80%;
+}
+
+.regeneration_style_section_header_text h1 {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 110%;
+    color: #FFFFFF;
+}
+
+.regeneration_style_section_header_text p {
+    font-family: 'Hauora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 110%;
+    color: #FFFFFF;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    margin: 0;
+}
+
+.regeneration_style_section_header_image img{
+    position: absolute;
+    top: 0;
+    right: -215px;
+    width: 431px;
+    z-index: 1;
+}
+
+.regeneration_style_section_description {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.regeneration_style_section_description_header h3 {
+    font-family: 'Hauora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 110%;
+    color: #000000;
+    padding: 0;
+    padding-left: 2.5rem;
+    margin: 2rem 2rem;
+}
+
+.regeneration_style_section_description_main {
+    display: flex;
+}
+
+.regeneration_style_section_description_main_flexRow {
+    display: flex;
+    align-items: center;
+}
+
+.regeneration_style_section_description_main_flexRow span{
+    font-family: 'Hauora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 110%;
+    color: #000000;
+    padding-left: 0.5rem;
+}
+
+.regeneration_style_section_order {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.regeneration_style_section_order h4 {
+    font-family: 'Hauora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.04em;
+    color: #000000;
+    padding: 0;
+    margin: 2rem;
+}
+
+.regeneration_style_section_order button {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 110%;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 2rem 2rem;
+    border:1px solid #671FEC;
+    background-color: #671FEC;
+    padding: 2rem;
+    border-radius:70px;
+    color: white;
+    box-shadow: 10px 10px 3px #42484c;
+}
+
+.regeneration_style_section_order button:hover {
+    cursor: pointer;
+}
+/* naming - name of the brand */
+
+.section_naming_brand {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.naming_transform_color_blue {
+    width: 100%;
+    height: 20px;
+    background-color: #671FEC;
+}
+
+.naming_name_brand {
+    display: flex;
+    flex-direction: column;
+    background-color: #E9E9E9;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.naming_name_brand_header {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.naming_name_brand_header h1{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 110%;
+}
+
+.naming_name_brand_header span {
+    color: #671FEC;
+}
+
+.naming_name_brand_up {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
 }
+
+.naming_name_brand_up_description_left_header h4{
+    font-family: 'Hauora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 110%;
+    color: #000000;
+}
+
+.naming_name_brand_up_description_left {
+    display: flex;
+    flex-direction: column;
+}
+
+.naming_name_brand_up_description_left_content {
+    display: flex;
+    align-items: center;
+}
+
+.naming_name_brand_up_description_left_content h4 {
+    font-family: 'Hauora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 110%;
+    color: #000000;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+    padding-left: 8px;
+}
+
+.naming_name_brand_up_description_left_content p {
+    font-family: 'Hauora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 110%;
+    color: #4D4D4D;
+    padding-top: 0;
+    margin-top: 0;
+    padding-left: 8px;
+}
+
+.naming_name_brand_up_description_right {
+    width: 540px;
+    background-image: url(/img/messageBack.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding: 1.813rem 3.938rem;
+}
+
+.naming_name_brand_up_description_right img {
+    width: 100px;
+}
+
+.naming_name_brand_up_description_right p {
+    width: 100%;
+    height: 100%;
+    font-family: 'Hauora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 110%;
+    display: flex;
+    align-items: flex-end;
+    color: #671FEC;
+    margin-bottom: -6.75rem;
+}
+
+.naming_name_brand_down {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    background-color: #FFFFFF;
+    border-radius: 60px;
+    margin-bottom: 7.625rem;
+    margin-top: 2.5rem;
+}
+
+.naming_name_brand_down_leftBlock, .naming_name_brand_down_rightBlock {
+    min-height: 320px;
+    padding: 32px 0 45px 50px;
+}
+
+.naming_name_brand_down_leftBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 5px solid #E9E9E9;
+    padding-right: 0.75rem;
+}
+
+.naming_name_brand_down_leftBlock_up h4 {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 110%;
+    color: #671FEC;
+}
+
+.naming_name_brand_down_leftBlock_up span {
+    font-family: 'Hauora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 110%;
+    color: #4D4D4D;
+}
+
+.naming_name_brand_down_leftBlock_down h4 {
+    align-self: flex-end;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 102%;
+    text-align: right;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+.naming_name_brand_down_rightBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.naming_name_brand_down_rightBlock_up h4 {
+    font-family: 'Hauora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 110%;
+    color: #671FEC;
+}
+
+.naming_name_brand_down_rightBlock_up_list {
+    padding: 0;
+}
+
+.naming_name_brand_down_rightBlock_up_list ol {
+    padding-left: 0.938rem;
+}
+
+.naming_name_brand_down_rightBlock_up_list  li {
+    font-family: 'Hauora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 110%;
+    color: #000000;
+}
+
+.naming_name_brand_down_rightBlock_down {
+    align-self: flex-end;
+    padding-right: 6rem;
+}
+
+.naming_name_brand_down_rightBlock_down  span {
+    font-family: 'Hauora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 110%;
+    color: #4D4D4D;
+}
+
+/* personnel management system */
