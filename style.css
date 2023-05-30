@@ -812,14 +812,233 @@ body {
 
 
 .personnel_system_crm {
+    position: relative;
     width: 100%;
-}
-
-.personnel_system_crm_wrapper {
-    /* width: 80%; */
+    padding: 0;
+    margin: 0 auto;
     background-color: #671FEC;
 }
 
+
+.personnel_system_crmIMG span{
+    position: absolute;
+    top: -45px;
+    left: 118px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 110%;
+    background: #671FEC;
+    background: linear-gradient(to bottom, #671FEC 41%, #FFFFFF 27%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.personnel_system_crm_wrapper {
+    display: flex;
+    padding-left: 13.813rem;
+    padding-top: 3.75rem;
+}
+
+.personnel_system_crm_leftBlock {
+    width: 70%;
+}
+
+.personnel_system_crm_leftBlock h3{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 110%;
+    color: #E9E9E9;
+}
+
+.personnel_system_crm_leftBlock p{
+    font-family: 'Hauora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 110%;
+    color: #FFFFFF;
+}
+
+.personnel_system_crm_leftBlock_blockRadio {
+    padding-top: 2rem;
+}
+
+.personnel_system_crm_leftBlock_divBorderRadius {
+    font-family: 'Hauora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 110%;
+    color: #FFFFFF;
+    border: 1px solid #E9E9E9;
+    border-radius: 40px;
+    padding: 8px 16px;
+    background-color: #671FEC;
+    margin-bottom: 1rem;
+}
+
+.personnel_system_crm_leftBlock_radioList {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.375rem;
+}
+
+.personnel_system_crm_leftBlock_radioList span {
+    font-family: 'Hauora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 110%;
+    color: #FFFFFF;
+    padding-left: 0.5rem;
+}
+
+.personnel_system_crm_leftBlock_form h4{
+    font-family: 'Hauora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 110%;
+    color: #FFFFFF;
+}
+
+.personnel_system_crm_leftBlock_form_flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.personnel_system_crm_leftBlock_form_flex_left p, .personnel_system_crm_leftBlock_form_flex_right p {
+    font-family: 'Hauora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 110%;
+    color: #FFFFFF;
+}
+
+.personnel_system_crm_leftBlock_form_flex_left input, .personnel_system_crm_leftBlock_form_flex_right input {
+    font-family: 'Hauora';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 128%;
+    letter-spacing: 0.04em;
+    color: #671FEC;
+    padding: 10px 16px;
+    width: 30.375rem;
+    height: 2.5rem;
+    background: #E9E9E9;
+    border-radius: 21px;
+}
+
+.personnel_system_crm_leftBlock_form_flex_right {
+    align-self: flex-end;
+}
+
+.personnel_system_crm_leftBlock_form_flex_right input {
+    width: 17.563rem;
+}
+
+.personnel_system_crm_leftBlock_form_flex_left input::placeholder, .personnel_system_crm_leftBlock_form_flex_right input::placeholder {
+    font-family: 'Hauora';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 128%;
+    letter-spacing: 0.04em;
+    color: #671FEC;
+}
+
+.personnel_system_crm_leftBlock_form_textArea {
+    width: 100%;
+}
+
+.personnel_system_crm_leftBlock_form_textArea textarea{
+    width: calc(100% - 32px);
+    padding: 10px 16px;
+    min-height: 160px;
+    font-family: 'Hauora';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 128%;
+    letter-spacing: 0.04em;
+    color: #671FEC;
+    background: #E9E9E9;
+    border-radius: 21px;
+    margin-top: 3.625rem;
+}
+
+.personnel_system_crm_leftBlock_form_textArea textarea:focus {
+    outline: none;
+}
+
+.buttonSubmit {
+    font-family: 'Hauora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 110%;
+    letter-spacing: 0.04em;
+    color: #671FEC;
+    padding: 10px 16px;
+    border: 1px solid #671FEC;
+    border-radius: 37px;
+    margin-top: 0.25rem;
+    margin-bottom: 2.25rem;
+}
+
+.personnel_system_crm_rightBlock {
+    position: relative;
+    width: 50%;
+}
+
+.personnel_system_crm_rightBlock_cobweb {
+    position: absolute;
+    right: 0;
+    bottom: 36%;
+}
+
+#cobweb1 {
+    position: absolute;  
+    right: 0rem;
+    bottom: 1rem;
+
+}
+
+#cobweb2 {
+    position: absolute;
+    right: 0rem;
+    bottom: 7rem;
+}
+
+#cobweb3 {
+    position: absolute;
+    right: 0rem;
+    bottom: 12rem;
+}
+
+#cobweb4 {
+    position: absolute;
+    right: 1rem;
+    bottom: 16rem;
+}
+
+#cobweb5 {
+    position: absolute;
+    right: 3rem;
+    bottom: 19rem;
+}
+
+.personnel_system_crm_rightBlock_groupEllipse{
+    position: absolute;
+    bottom: -2.188rem;
+    right: 0;
+}
 
 /* footer */
 
