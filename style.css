@@ -933,6 +933,8 @@ body {
     height: 2.5rem;
     background: #E9E9E9;
     border-radius: 21px;
+    outline: none;
+    border:0;
 }
 
 .personnel_system_crm_leftBlock_form_flex_right {
@@ -971,6 +973,7 @@ body {
     background: #E9E9E9;
     border-radius: 21px;
     margin-top: 3.625rem;
+    text-align: left;
 }
 
 .personnel_system_crm_leftBlock_form_textArea textarea:focus {
