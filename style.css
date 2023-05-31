@@ -736,7 +736,7 @@ body {
 }
 
 .naming_name_brand_up_description_right {
-    width: 30rem;
+    width: 25rem;
     background-image: url(/img/messageBack.svg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -998,6 +998,7 @@ body {
 
 .personnel_system_crm_leftBlock_form_flex_right {
     align-self: flex-end;
+    margin-right: 2.5rem;
 }
 
 .personnel_system_crm_leftBlock_form_flex_left input {
